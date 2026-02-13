@@ -1,0 +1,5 @@
+# Build the docker image
+docker build -t simple-node .
+
+# Run the docker image
+docker run --rm -p 3000:3000 simple-node
